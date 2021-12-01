@@ -7,6 +7,7 @@ body{
     margin: 0;
     padding: 0;
     overflow: scroll;
+    overflow-x: hidden;
 }
 .container{
     font-family: 'Courgette', cursive;
@@ -56,6 +57,7 @@ textarea{
     padding: 2rem;
     margin: auto;
     overflow: scroll;
+    overflow-x: hidden;
     font-size: x-large;
 }
 #btn-translate{

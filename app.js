@@ -21,7 +21,7 @@ function translateTo(){
     var inputText=text.value
     fetch(constructUrl(inputText))
     .then(response=>response.json())
-    .then(json=>console.log(output.innerText=json.contents.translated))
+    .then(json=>output.innerText=json.contents.translated)
     .catch(errorHandler)
 }
 
