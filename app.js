@@ -7,12 +7,10 @@ var output=document.querySelector("#output")
 var url="https://api.funtranslations.com/translate/minion.json"
 
 //Error handling function
-const errorHandler=()=>{
-    alert("Some error occured...Please try after some time")
-}
+const errorHandler=()=> alert("Some error occured...Please try after some time");
 
 //Constructing URL using input text
-const constructUrl= text =>{ url+"?"+"text="+text; }
+const constructUrl= text => url+"?"+"text="+text; 
 
 //language translation function
 const translateTo=()=>{
